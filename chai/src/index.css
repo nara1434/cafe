@@ -1,0 +1,18 @@
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE & Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari, Opera */
+  }
+  .top-coffee-img:hover,
+  .best-tea-img:hover,.beverages-img:hover,.Snacks-img:hover,.desert-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .home-ul:hover{
+    color: blue;
+  }
